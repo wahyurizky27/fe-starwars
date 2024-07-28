@@ -1,0 +1,41 @@
+.container {
+  max-width: 600px;
+}
+
+
+h1 {
+  font-family: 'Star Jedi', Arial, sans-serif;
+  color: #343a40;
+}
+
+/* Style the list items */
+.list-group-item {
+  background-color: #f8f9fa;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.list-group-item:hover {
+  background-color: #a6adb4;
+  color: #f8f9fa;
+}
+
+.badge-primary {
+  color: #01080f;
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 36px;
+}
+
+.stretched-link {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-left: 10px;
+  display: block;
+  flex-grow: 1;
+}

@@ -1,0 +1,41 @@
+<div class="container mt-4">
+  <div class="card">
+    <div class="card-body">
+      <h1 class="card-title text-center">{{ person.name }}</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <p><strong>Birth Year:</strong> {{ person.birth_year }}</p>
+          <p><strong>Gender:</strong> {{ person.gender }}</p>
+        </div>
+        <div class="col-md-6">
+          <p><strong>Height:</strong> {{ person.height }} cm</p>
+          <p><strong>Mass:</strong> {{ person.mass }} kg</p>
+        </div>
+      </div>
+      <div class="mt-4">
+        <h2 class="h4">Films</h2>
+        <ul class="list-group">
+          <li class="list-group-item" *ngFor="let film of films">{{ film }}</li>
+        </ul>
+      </div>
+      <div class="mt-4">
+        <h2 class="h4">Species</h2>
+        <ul class="list-group">
+          <li class="list-group-item" *ngFor="let specie of species">{{ specie }}</li>
+        </ul>
+      </div>
+      <div class="mt-4">
+        <h2 class="h4">Starships</h2>
+        <ul class="list-group">
+          <li class="list-group-item" *ngFor="let starship of starships">{{ starship }}</li>
+        </ul>
+      </div>
+      <div class="mt-4">
+        <h2 class="h4">Vehicles</h2>
+        <ul class="list-group">
+          <li class="list-group-item" *ngFor="let vehicle of vehicles">{{ vehicle }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

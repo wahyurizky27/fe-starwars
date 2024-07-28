@@ -1,0 +1,32 @@
+.container {
+  max-width: 800px;
+}
+
+.card {
+  border-color: #343a40;
+}
+
+.card-title {
+  font-family: 'Star Jedi', Arial, sans-serif;
+  color: #343a40;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+}
+
+h2.h4 {
+  color: #343a40;
+  margin-top: 20px;
+}
+
+.list-group-item {
+  background-color: #ffffff;
+  border-color: #343a40;
+  color: #343a40;
+}
+
+.list-group-item:hover {
+  background-color: #343a40;
+  color: #f8f9fa;
+}

@@ -1,0 +1,11 @@
+<div class="container mt-4">
+  <div class="flex">
+    <h1 class="text-center">List Character Starwars</h1>
+  </div>
+  <ul class="list-group">
+    <li [routerLink]="['/people', person.url.split('/').slice(-2)[0]]" class="list-group-item d-flex align-items-center" *ngFor="let person of people; let i = index">
+      <span class="badge badge-primary badge-pill mr-3">{{ i + 1 }}</span>
+      <p  class="text-decoration-none text-dark">{{ person.name }}</p>
+    </li>
+  </ul>
+</div>
